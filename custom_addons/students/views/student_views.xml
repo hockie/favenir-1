@@ -25,6 +25,7 @@
                     </notebook>
                 </sheet>
             </form>
+        </field>
     </record>
     <record id="student_view_list" model="ir.ui.view">
         <field name="name">student.view.list</field>
