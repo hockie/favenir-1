@@ -13,7 +13,7 @@
     'website': 'www.favenir.com',
     'category': 'Custom Modules/Tech Training',
     'version': '1.0',
-    'depends': ['base'],
+    'depends': ['base','contacts'],
     'data': [
             ],
     'installable': True,
