@@ -21,6 +21,7 @@
             ],
     'installable': True,
     'application': True,
-    'web_icon': 'student,static/description/icon.png',
+    'web_icon': 'students,static/description/icon.png',
+    
     
 }
