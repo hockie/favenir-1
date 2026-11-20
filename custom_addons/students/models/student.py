@@ -1,6 +1,6 @@
 from odoo import fields, models
 
-class Student(models.Model):
+class StudentStudent(models.Model):
     _name = "student.student"
     _description = "Student Module"
     
