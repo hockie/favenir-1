@@ -15,6 +15,9 @@
     'version': '1.0',
     'depends': ['base','contacts'],
     'data': [
+        'security/student_groups.xml',
+        'security/student_security.xml',
+        'views/student_views.xml',
             ],
     'installable': True,
     'application': True,
