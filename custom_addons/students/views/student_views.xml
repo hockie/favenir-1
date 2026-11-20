@@ -54,11 +54,6 @@
                 <filter name="filter_phone"
                         string="Has Phone"
                         domain="[('phone', '!=', False)]"/>
-                <group expand="0" string="Group By">
-                    <filter name="groupby_city"
-                            string="City"
-                            context="{'group_by': 'city'}"/>
-                </group>
             </search>
         </field>
     </record>
