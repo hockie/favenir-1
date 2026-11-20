@@ -7,11 +7,8 @@
     </record>
     <record id="student_group" model="res.groups">
         <field name="name">Student User</field>
-        <field name="category_id" ref="module_category_student"/>
     </record>
     <record id="student_group_admin" model="res.groups">
         <field name="name">Student Administrator</field>
-        <field name="category_id" ref="module_category_student"/>
-        <field name="implied_ids" eval="[(4, ref('student_group'))]"/>
     </record>
 </odoo>
