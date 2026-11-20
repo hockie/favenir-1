@@ -9,10 +9,12 @@ class StudentStudent(models.Model):
         required=True
     )
     email = fields.Char(
-        string='Email'
+        string='Email',
+        type='email'
     )
     phone = fields.Char(
-        string='Phone'
+        string='Phone',
+        type='phone'
     )
     address = fields.Char(
         string='Address'
