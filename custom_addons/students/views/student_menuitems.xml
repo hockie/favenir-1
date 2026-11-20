@@ -3,11 +3,11 @@
     <menuitem id="student_menu"
             name="Students"
             sequence="10"
-            groups="student_group,student_group_admin"/>
+            groups="students.student_group,students.student_group_admin"/>
     <menuitem id="student_submenu"
             name="Manage Students"
-            parent="student_menu"
-            action="student_action"
+            parent="students.student_menu"
+            action="students.student_action"
             sequence="10"
-            groups="student_group,student_group_admin"/>
+            groups="students.student_group,students.student_group_admin"/>
 </odoo>
