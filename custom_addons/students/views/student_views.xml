@@ -31,13 +31,13 @@
         <field name="name">student.view.list</field>
         <field name="model">student.student</field>
         <field name="arch" type="xml">
-            <tree string="Student List">
+            <list string="Student List">
                 <field name="name"/>
                 <field name="email"/>
                 <field name="phone"/>
                 <field name="address"/>
                 <field name="city"/>
-            </tree>
+            </list>
         </field>
      </record>
     <record id="student_view_search" model="ir.ui.view">
