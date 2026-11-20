@@ -1,4 +1,3 @@
-
 {
     'name': 'Student Module',
     'version': '19.0.1.0.0',
@@ -22,12 +21,9 @@
     ],
 
     'data': [
-        # Security
         'security/student_groups.xml',
         'security/student_security.xml',
         'security/ir.model.access.csv',
-
-        # Views
         'views/student_views.xml',
         'views/student_menuitems.xml',
     ],
