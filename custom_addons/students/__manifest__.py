@@ -1,5 +1,7 @@
 {
-    'name': 'Studen Module',
+    'name': 'Student Module',
+    'version': '19.0.1.0.0',
+    'category': 'Academe',
     'summary': """Module to handle Student Records""",
     'description': """Module to handle:
         - Students
@@ -14,7 +16,8 @@
     'depends': ['base'],
     'data': [
             ],
-    'demo': [
-            ],
+    'installable': True,
     'application': True,
+    'web_icon': 'student,static/description/icon.png',
+    
 }
