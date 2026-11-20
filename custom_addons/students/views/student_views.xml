@@ -44,7 +44,7 @@
         </field>
     </record>
     <record id="student_view_search" model="ir.ui.view">
-        <field name="name">student.student.search</field>
+        <field name="name">student.view.search</field>
         <field name="model">student.student</field>
         <field name="arch" type="xml">
             <search string="Search Students">
