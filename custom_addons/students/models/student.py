@@ -1,21 +1,43 @@
-from odoo import fields, models
+
+from odoo import models, fields
+
 
 class StudentStudent(models.Model):
-    _name = "student.student"
-    _description = "Student Module"
-    
-    name = fields.Char(string="Name", required=True)
-    active = fields.Boolean(string="Active", default=True)
-    
-    description = fields.Text()
-    gender = fields.Selection(string="Level",
-                              selection=[
-                                 ('male','Male'),
-                                 ('female','Female'),
-                                 ('other','Other'),
-                             ],
-                             copy=False)
-    email = fields.Char(string="Email", widget="email")
-    phone = fields.Char(string="Phone", widget="phone")
-    address = fields.Text(string="Address")
-    city = fields.Char(string="City")
+    _name = 'student.student'
+    _description = 'Student Management'
+    _rec_name = 'name'
+    _order = 'name asc'
+
+    # Basic Information
+    name = fields.Char(
+        string='Student Name',
+        required=True
+    )
+
+    email = fields.Char(
+        string='Email'
+    )
+
+    phone = fields.Char(
+        string='Phone'
+    )
+
+    # Address Information
+    address = fields.Char(
+        string='Address'
+    )
+
+    city = fields.Char(
+        string='City'
+    )
+
+    # Additional Information
+    description = fields.Text(
+        string='Description'
+    )
+
+    # Record Status
+    active = fields.Boolean(
+        string='Active',
+        default=True
+    )
