@@ -18,7 +18,7 @@
         'security/student_groups.xml',
         'security/student_security.xml',
         'views/student_views.xml',
-        'views/student_menuitems'
+        'views/student_menuitems.xml',
             ],
     'installable': True,
     'application': True,
